@@ -1,0 +1,88 @@
+!Xft.dpi:		    92
+Xft.lcdfilter:		lcddefault
+Xft.hinting:		1
+Xft.hintstyle:		hintslight
+Xft.autohint:		0
+Xft.rgba:		    rgb
+Xft.antialias:		1
+
+URxvt.termName:		rxvt-256color
+
+URxvt.font:		    xft:mononoki:mono:size=11
+URxvt.letterSpace: 	-1
+
+URxvt*depth:		32
+URxvt.background:	[95]#1a1a1a
+
+URxvt.internalBorder:	22
+
+URxvt.scrollBar:	false
+URxvt.borderless:	true
+
+URxvt.cursorBlink:	    true
+URxvt.cursorUnderLine:	true
+
+URxvt.perl-ext:		
+URxvt.perl-ext-common:	
+URxvt.urlLauncher:	
+URxvt.matcher.button:	
+
+rofi.modi:		window,run,ssh
+rofi.bw:		0
+rofi.padding:	18
+rofi.lines:		1
+rofi.yoffset:	-492
+rofi.xoffset:	-758
+rofi.width:		20
+rofi.separator-style:	none
+rofi.hide-scrollbar:	true
+rofi.sidebar-mode:	false
+rofi.show-icons:	false
+rofi.font:		    mononoki 10
+rofi.fixed-num-lines: 	true
+
+rofi.color-enabled: true
+!                  bg       border   separator
+rofi.color-window: #282828, #a89984, #a89984
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #282828, #ebdbb2, #32302f, #665c54, #fbf1c7
+rofi.color-active: #d79921, #282828, #d79921, #fabd2f, #282828
+rofi.color-urgent: #cc241d, #282828, #cc241d, #fb4934, #282828
+
+! special
+*.foreground:   #d0d0d0
+*.background:   #151515
+*.cursorColor:  #d0d0d0
+
+! black
+*.color0:       #151515
+*.color8:       #505050
+
+! red
+*.color1:       #fb9fb1
+*.color9:       #fb9fb1
+
+! green
+*.color2:       #acc267
+*.color10:      #acc267
+
+! yellow
+*.color3:       #ddb26f
+*.color11:      #ddb26f
+
+! blue
+*.color4:       #6fc2ef
+*.color12:      #6fc2ef
+
+! magenta
+*.color5:       #e1a3ee
+*.color13:      #e1a3ee
+
+! cyan
+*.color6:       #12cfc0
+*.color14:      #12cfc0
+
+! white
+*.color7:       #d0d0d0
+*.color15:      #f5f5f5
+
